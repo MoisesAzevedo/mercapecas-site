@@ -1,0 +1,21 @@
+export const AGILIZE_CONFIG = {
+  "ensure_full_mode": false,
+  "widget_min_spare_width_px": 0,
+  "widget_start_open": false,
+  "action_bar_bg": "solid",
+  "action_bar_bg_color1": "#E51515",
+  "action_bar_bg_color2": "#E51515",
+  "action_bar_bg_color3": "#E51515",
+  "action_bar_icon_color2": "#E51515",
+  "main_text": "#293357",
+  "border_btn_color": "#000243",
+  "top_bar_icon_color2": "#000243",
+  "top_bar_text_color": "#000243",
+  "top_bar_icon_close_color": "#000243",
+  "top_bar_icon_color1": "#EAEAED",
+  "bg_messsage_1_color": "#EAEAED",
+  "border_messsage_1_color": "#EAEAED",
+  "bg_messsage_2_color": "#B8BBC6",
+  "border_messsage_2_color": "#B8BBC6",
+  "bg_main_color": "#FBFBFF"
+}
