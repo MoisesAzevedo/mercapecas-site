@@ -54,7 +54,7 @@ export function CompanyContactInfo({
   emailComercial = "mercapecas@mercapecas.com",
   whatsapp = "(34) 3213-9266",
   whatsappRaw = "553432139266",
-  cnpj = "11.111.111/1111-11",
+  cnpj = "02.761.265/0001-38",
   facebookUrl = "https://www.facebook.com/mercapecasltda/",
   instagramUrl = "https://www.instagram.com/mercapecas_mercedes/",
 }: CompanyContactInfoProps) {
