@@ -102,3 +102,20 @@ Evite código duplicado. Se uma mesma regra de negócio, comportamento ou estilo
 Para facilitar revisões de código, reduzir conflitos de mesclagem (merge conflicts) e acelerar a compreensão:
 - Mantenha os arquivos React, TypeScript e de estilo **curtos** (idealmente **menos de 150 linhas** por arquivo).
 - Se um arquivo começar a crescer demais, divida a lógica em hooks locais, subcomponentes locais ou funções auxiliares.
+
+---
+
+## 📌 Convenção de Commits
+
+Para manter o histórico de commits organizado e legível, adotamos a seguinte padronização baseada em Commits Semânticos:
+
+| Tipo | Quando usar | Exemplo |
+| :--- | :--- | :--- |
+| **feat** | Nova funcionalidade | `feat: adiciona autenticação com Google` |
+| **fix** | Correção de bug | `fix: corrige validação do formulário` |
+| **docs** | Alterações na documentação | `docs: atualiza README com instruções de instalação` |
+| **style** | Mudanças de formatação (sem alterar comportamento) | `style: aplica prettier ao projeto` |
+| **refactor** | Refatoração sem corrigir bug ou adicionar funcionalidade | `refactor: simplifica lógica de autenticação` |
+| **test** | Adição ou alteração de testes | `test: adiciona testes para LoginForm` |
+| **chore** | Tarefas de manutenção | `chore: atualiza dependências` |
+
