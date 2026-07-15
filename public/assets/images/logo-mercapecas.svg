@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220" fill="none">
+  <!-- Left wing - outer bar -->
+  <polygon points="60,55 280,55 260,80 80,80" fill="#E51515"/>
+  <!-- Left wing - inner bar -->
+  <polygon points="100,95 260,95 240,120 120,120" fill="#E51515"/>
+
+  <!-- Right wing - outer bar -->
+  <polygon points="640,55 420,55 440,80 620,80" fill="#E51515"/>
+  <!-- Right wing - inner bar -->
+  <polygon points="600,95 440,95 460,120 580,120" fill="#E51515"/>
+
+  <!-- Company name -->
+  <text x="350" y="190" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="48" font-weight="900" fill="#1a1a1a" letter-spacing="6">MERCAPEÇAS</text>
+</svg>
