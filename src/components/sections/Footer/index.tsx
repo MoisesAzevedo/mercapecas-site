@@ -6,7 +6,7 @@ const CONTACT_EMAIL_ENDPOINT = "http://localhost:3000/email";
 
 export function Footer() {
   return (
-    <footer id="contato" className="bg-zinc-950 text-zinc-300">
+    <footer id="contato" className="scroll-mt-20 bg-zinc-950 text-zinc-300">
       <div className="py-16">
         <Container>
           <div className="grid gap-12 lg:grid-cols-2">

@@ -10,7 +10,7 @@ const stats = [
 
 export function About() {
   return (
-    <section id="sobre" className="bg-background py-20">
+    <section id="sobre" className="scroll-mt-20 bg-background py-20">
       <Container>
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div>

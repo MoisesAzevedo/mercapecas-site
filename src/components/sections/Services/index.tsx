@@ -12,7 +12,7 @@ const categories = [
 
 export function Services() {
   return (
-    <section id="produtos" className="bg-muted/40 py-20">
+    <section id="produtos" className="scroll-mt-20 bg-muted/40 py-20">
       <Container>
         <div className="mb-12 text-center">
           <span className="mb-2 inline-block text-sm font-semibold uppercase tracking-widest text-[#E51515]">
@@ -30,7 +30,7 @@ export function Services() {
           {categories.map(({ icon: Icon, label }) => (
             <a
               key={label}
-              href="#"
+              /*        href="#" */
               className="group flex flex-col items-center gap-3 rounded-xl border border-border bg-card p-6 text-center shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-[#E51515] hover:shadow-md"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#E51515]/10 transition-colors group-hover:bg-[#E51515]">
