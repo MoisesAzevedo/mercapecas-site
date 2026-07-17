@@ -2,6 +2,8 @@ import { Container } from "@/components/globals/Container";
 import { CompanyContactInfo } from "@/components/globals/CompanyContactInfo";
 import { ContactForm } from "@/components/globals/ContactForm";
 
+const CONTACT_EMAIL_ENDPOINT = "http://localhost:3000/email";
+
 export function Footer() {
   return (
     <footer id="contato" className="bg-zinc-950 text-zinc-300">
@@ -9,7 +11,7 @@ export function Footer() {
         <Container>
           <div className="grid gap-12 lg:grid-cols-2">
             <CompanyContactInfo />
-            <ContactForm />
+            <ContactForm endpoint={CONTACT_EMAIL_ENDPOINT} />
           </div>
         </Container>
       </div>

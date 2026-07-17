@@ -11,6 +11,9 @@ export interface ContactFormFieldProps {
   className?: string;
   inputClassName?: string;
   labelClassName?: string;
+  required?: boolean;
+  value?: string;
+  onChange?: (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void;
   inputProps?: React.ComponentPropsWithoutRef<"input">;
   textareaProps?: React.ComponentPropsWithoutRef<"textarea">;
 }
@@ -25,6 +28,9 @@ export function ContactFormField({
   className,
   inputClassName,
   labelClassName,
+  required,
+  value,
+  onChange,
   inputProps,
   textareaProps,
 }: ContactFormFieldProps) {
@@ -45,6 +51,9 @@ export function ContactFormField({
           name={name}
           placeholder={placeholder}
           rows={rows}
+          required={required}
+          value={value}
+          onChange={onChange}
           className={cn(commonFieldClass, "resize-none", inputClassName)}
           {...textareaProps}
         />
@@ -54,6 +63,9 @@ export function ContactFormField({
           name={name}
           type={type}
           placeholder={placeholder}
+          required={required}
+          value={value}
+          onChange={onChange}
           className={cn(commonFieldClass, inputClassName)}
           {...inputProps}
         />
