@@ -65,10 +65,11 @@ export function Slider({ slides, autoPlayInterval = 6000 }: SliderProps) {
         </div>
       ))}
 
+      <div className="absolute bottom-6 left-0 right-0 z-30 flex items-center justify-between px-4 sm:px-6 lg:px-8">
       <button
         onClick={prev}
         aria-label="Slide anterior"
-        className="absolute left-4 top-1/2 z-30 -translate-y-1/2 flex h-12 w-12 items-center justify-center rounded-full bg-black/30 text-white backdrop-blur-sm transition-all duration-200 hover:bg-[#E51515] hover:scale-110 focus:outline-none"
+        className="order-1 flex h-9 w-9 items-center justify-center rounded-full bg-black/30 text-white backdrop-blur-sm transition-all duration-200 hover:bg-[#E51515] hover:scale-110 focus:outline-none"
       >
         <ChevronLeft className="size-6" />
       </button>
@@ -76,12 +77,12 @@ export function Slider({ slides, autoPlayInterval = 6000 }: SliderProps) {
       <button
         onClick={next}
         aria-label="Próximo slide"
-        className="absolute right-4 top-1/2 z-30 -translate-y-1/2 flex h-12 w-12 items-center justify-center rounded-full bg-black/30 text-white backdrop-blur-sm transition-all duration-200 hover:bg-[#E51515] hover:scale-110 focus:outline-none"
+        className="order-3 flex h-9 w-9 items-center justify-center rounded-full bg-black/30 text-white backdrop-blur-sm transition-all duration-200 hover:bg-[#E51515] hover:scale-110 focus:outline-none"
       >
         <ChevronRight className="size-6" />
       </button>
 
-      <div className="absolute bottom-6 left-1/2 z-30 flex -translate-x-1/2 gap-3">
+      <div className="order-2 flex gap-3">
         {slides.map((_, index) => (
           <button
             key={index}
@@ -95,6 +96,7 @@ export function Slider({ slides, autoPlayInterval = 6000 }: SliderProps) {
             )}
           />
         ))}
+      </div>
       </div>
     </div>
   );
